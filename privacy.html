@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隱私權政策 — workbuddy-gmail</title>
+<style>
+:root{color-scheme:light}
+body{margin:0;font-family:-apple-system,"Helvetica Neue","PingFang HK",sans-serif;background:#f6f7f9;color:#333}
+.wrap{max-width:720px;margin:0 auto;padding:56px 24px 80px}
+h1{font-size:24px;margin:0 0 6px;color:#d31145}
+.sub{color:#666;font-size:14px;margin-bottom:32px}
+.card{background:#fff;border:1px solid #e6e8ec;border-radius:12px;padding:26px 28px}
+h2{font-size:16px;margin:26px 0 8px;color:#333}
+h2:first-child{margin-top:0}
+p,li{font-size:15px;line-height:1.75;color:#444}
+ul{padding-left:20px;margin:8px 0}
+a{color:#d31145}
+.foot{margin-top:28px;font-size:13px;color:#888;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>隱私權政策</h1>
+  <div class="sub">workbuddy-gmail · 生效日期：2026 年 10 月 30 日</div>
+  <div class="card">
+    <h2>1. 適用範圍</h2>
+    <p>本政策適用於 <strong>workbuddy-gmail</strong>（以下稱「本工具」）。本工具是單一使用者的個人應用程式，只在擁有者本人的電腦上運行，不向公眾提供服務，也沒有其他使用者。</p>
+
+    <h2>2. 收集什麼資料</h2>
+    <p>本工具<strong>不營運任何伺服器</strong>，也不收集、儲存或傳輸任何個人資料到第三方。它只會：</p>
+    <ul>
+      <li>使用 Google OAuth 授權，存取<strong>擁有者本人</strong>的 Gmail 帳戶；</li>
+      <li>在本機讀取郵件內容，用於回覆擁有者的即時指示；</li>
+      <li>把 OAuth 存取憑證儲存在擁有者本機的檔案系統（權限 600）。</li>
+    </ul>
+
+    <h2>3. 資料用途</h2>
+    <p>郵件內容只用作完成擁有者當下的指示（例如：尋找某封郵件、整理標籤、草擬或發送郵件）。不會用於分析、廣告、轉售或任何其他用途。</p>
+
+    <h2>4. 資料分享</h2>
+    <p>本工具<strong>不會</strong>把郵件內容、附件或任何衍生資料提供給任何第三者。唯一例外是擁有者明確指示發送的郵件本身，該郵件會經 Google Gmail 服務傳送給收件人。</p>
+
+    <h2>5. 資料保存與刪除</h2>
+    <p>本工具不在本機建立郵件資料庫備份。OAuth 憑證保存在 <code>~/.workbuddy/gmail-mcp/credentials.json</code>，擁有者可隨時刪除該檔案，或在 <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google 帳戶權限頁面</a>撤銷授權，即可即時終止本工具的所有存取權。</p>
+
+    <h2>6. Google API 有限使用聲明</h2>
+    <p>本工具對 Google API 所取得資訊的使用，符合 <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API 服務使用者資料政策</a>，包括「有限使用（Limited Use）」要求：</p>
+    <ul>
+      <li>只為提供本工具向擁有者展示的功能而使用 Gmail 資料；</li>
+      <li>不把 Gmail 資料轉讓給第三方（除法律要求、為提供服務所需，或經擁有者明確同意）；</li>
+      <li>不使用 Gmail 資料作廣告用途；</li>
+      <li>不允許人類閱讀 Gmail 資料，除以下情況：擁有者本人、為安全目的（如濫用調查）、符合法律要求，或經擁有者明確同意。</li>
+    </ul>
+
+    <h2>7. 安全性</h2>
+    <p>憑證檔案只存放在擁有者本機，權限設為僅擁有者可讀寫（chmod 600）。所有與 Google 的通訊均經 HTTPS 加密。</p>
+
+    <h2>8. 兒童私隱</h2>
+    <p>本工具不針對兒童，也不會有兒童使用者。</p>
+
+    <h2>9. 政策更新</h2>
+    <p>如本政策有重大變更，會更新本頁頂部的生效日期。</p>
+
+    <h2>10. 聯絡方式</h2>
+    <p>Alan Ng — <a href="mailto:alan.nhk@gmail.com">alan.nhk@gmail.com</a></p>
+  </div>
+  <div class="foot"><a href="./index.html">← 返回首頁</a></div>
+</div>
+</body>
+</html>
